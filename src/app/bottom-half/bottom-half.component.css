@@ -1,0 +1,45 @@
+:host {
+    display: inline-block;
+    height: 45vh;
+    width: 33.33%;
+    background-color: lightskyblue;
+    box-sizing: border-box;
+    border-top: 3px solid black;
+}
+
+.bottom_card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 5px solid white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 80px 50px 0;
+    width: auto;
+    height: auto;
+}
+
+.bottom_title {
+    margin: 0 auto 10px;
+}
+
+.bottom_description{
+    margin: 0 auto 30px;
+    word-wrap: break-word;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.bottom_button {
+    margin: 0 auto;
+    background: white;
+    color: lightskyblue;
+    box-shadow: 2px 2px darkgray;
+}
+
+.bottom_button:hover {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}

@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+body, html {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+}
+
+h1, h2, p {
+    font-family: 'Times New Roman';
+    font-weight: bold;
+}
+
+button {
+    margin: 0 auto 20px;
+    height: 30px;
+    width: 150px;
+    border: 2px transparent;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    width: 145px;
+    box-shadow: 1px 1px black;
+    margin-bottom: 5px;
+}

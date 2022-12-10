@@ -1,0 +1,67 @@
+:host {
+    display: inline-block;
+    background-color: white;
+    height: 50vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.top_container {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.top_card {
+    margin-top: 100px;
+    height: 300px;
+    width: 500px;
+    background-color: white;
+}
+
+.top_title {
+    color: black;
+    text-align: justify;
+    font-size: 30px;
+}
+
+.top_description {
+    word-wrap: break-word;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.top_link {
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+.top_link:hover {
+    font-weight: bolder;
+}
+
+.top_button {
+    width: 200px;
+    font-size: 15px;
+    background: lightskyblue;
+    color: white;
+    box-shadow: 2px 2px darkgray;
+}
+
+.top_button:hover {
+    background-color: white;
+    color: lightskyblue;
+    border: 3px solid lightskyblue;
+}
+
+.top_button:active {
+    width: 198px;
+    height: 28px;
+}
+
+.top_image {
+    width: 350px;
+    height: 350px;
+}
+

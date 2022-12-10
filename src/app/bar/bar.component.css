@@ -1,0 +1,35 @@
+:host {
+    height: 5vh;
+    width: 100%;
+    background-color: rgb(133, 118, 231);
+    display: inline-block;
+    box-sizing: border-box;
+    border-bottom: 3px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.bar_lightbulb {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 10px;
+    box-shadow: 1px 1px black;
+    background-color: gray;
+}
+
+.bar_lightbulb:nth-child(1):hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.bar_lightbulb:nth-child(2):hover {
+    background-color: yellow;
+}
+
+.bar_lightbulb:nth-child(3):hover {
+    background-color: green;
+}
